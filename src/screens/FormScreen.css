@@ -1,0 +1,24 @@
+
+form{
+    
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    border: 2px dotted black;
+}
+input{
+    padding: 20px 10px 20px 10px;
+    border: 2px dotted black;
+    
+}
+.form-submit-button{
+    background-color: white;
+    font-size: large;
+    color: black;
+}
+
+.form-submit-button:hover{
+    cursor: pointer;
+}
