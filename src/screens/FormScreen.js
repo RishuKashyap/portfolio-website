@@ -14,6 +14,7 @@ function FormScreen() {
             <input type="text" name="name" placeholder='Enter your Name' />
             <input type="text" name="email" placeholder='Enter your Email id' />
             <input type="textarea" name="message" placeholder='Write your message' />
+            <input type="hidden" name="_next" value="https://rishukashyap.github.io/portfolio-website/"/>
             <input type="submit" className="form-submit-button" value="Submit" />
         </form>
         </div>
