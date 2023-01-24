@@ -1,5 +1,29 @@
+/* INTRO SECTION */
+.IntroSection{
+    min-height: 100%;
+    width: 70vw;
+    margin: auto;
+    margin-top: 3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 2rem;
+    background-color:black;
+    border-radius: 2rem;
+    border: 1rem brown outset ;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
 
-.Section{
+.IntroSection h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.IntroSection h2{
+    color: white;
+    font-size: large;
+}
+
+/* INTERNSHIP SECTION */
+.InternshipSection{
     height: 40vh;
     background-color: white;
     border: 2px solid black;
@@ -7,21 +31,72 @@
     margin: auto;
     margin-top: 3rem;
     padding-top: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     
 }
 
-@media screen and (max-width: 480px){
-    .Section{
-        height: fit-content;
-        width: 60vw;
-    }
+.InternshipSection h1{
+    color:#c68e17;
+    text-decoration-line: underline;
 }
+
+.InternshipSection li{
+    list-style-type: disc;
+    border: none;
+}
+
+/* SKILLS SECTION */
+
+.Skills{
+    height: fit-content;
+    width: 40vw;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 3rem;
+    padding-top: 0.1rem;
+    padding-left: 2rem;
+}
+
+.Skills h1{
+    color:#c68e17;
+    text-decoration-line: underline;
+}
+
+.Skills h2{
+    color: black;
+}
+
+/* EDUCATION SECTION */
+
+.EducationSection{
+    height: fit-content;
+    background-color: white;
+    border: 2px solid black;
+    width: 40vw;
+    margin: auto;
+    margin-top: 3rem;
+    padding-top: 0.1rem;
+    padding-left: 2rem;
+    
+}
+
+.EducationSection h1{
+    color:#c68e17;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.EducationSection h2{
+    color: teal;
+}
+
+
 
 .allHeader{
     text-align:center;
 }
-
-
 
 .allContent li{
     margin-left: 0;
@@ -31,12 +106,28 @@
     font-weight: normal;
 }
 
-.Section h1{
-    color:#c68e17;
-    text-decoration-line: underline;
+/* FOR MOBILE DEVICES */
+
+@media screen and (max-width: 480px){
+    
+    .IntroSection{
+        height: fit-content;
+        width: 70vw;
+    }
+
+    .Skills{
+        height: fit-content;
+        width: 60vw;
+    }
+
+    .InternshipSection{
+        height: fit-content;
+        width: 60vw;
+    }
+    .EducationSection{
+        height: fit-content;
+        width: 60vw;
+    }
 }
-.Section li{
-    list-style-type: disc;
-    border: none;
-}
+
 

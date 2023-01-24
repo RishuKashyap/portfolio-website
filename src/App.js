@@ -10,11 +10,6 @@ function App(){
       <Route path="/" element={<HomeScreen/>}/>
       <Route path="/Form" element={<FormScreen/>}/>
     </Routes>
-    // <div className="app">
-    //   <HomeScreen />
-    // </div>
-
-    
   );
 }
 

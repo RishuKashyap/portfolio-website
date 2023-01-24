@@ -1,10 +1,15 @@
+
 .Nav{
     display: flex;
     flex-direction: row;
-    /* padding-left: 5rem; */
-    padding-top: 2rem;
+    padding-top: 1rem;
+    top: 0;
+    width: 100%;
+    padding-bottom: 1rem;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    
 }
 
 /* for laptop and tablet */
@@ -14,16 +19,15 @@
         font-size: large;
         font-weight: bold;
         list-style: none;
-        border: 2px solid black;
-        /* border-radius: 20rem; */
         text-align: center;
         margin-left: 3rem;
     }
     
     a{
-        color: black;
+        color: white;
         text-decoration: none;
         padding: 3rem;
+        
         
     }
     
@@ -40,13 +44,11 @@
         font-size: small;
         font-weight: bold;
         list-style: none;
-        border: 2px solid black;
-        /* border-radius: 20rem; */
         text-align: center;
     }
     
     a{
-        color: black;
+        color: white;
         text-decoration: none;
         padding: 1rem;
         
@@ -58,16 +60,6 @@
     
   }
 
-#one{
-    background-color: whitesmoke;
-}
 
-#two{
-    background-color: whitesmoke;
-}
-
-#three{
-    background-color: whitesmoke;
-}
 
 
