@@ -12,7 +12,7 @@ function HomeScreen() {
           <div className='allHeader'>
             <h1>Namaste &#x1f64f;, I'm Rishu!!!</h1>
             <h2>I'm a Full Stack Developer</h2>
-            <img className="profile-img" src={require('../images/profilePic.jpg')} alt="" height="300rem" width="200rem" />
+            <img className="profile-img" src={require('../images/profilePic.jpg')} alt="" height="300rem" width="240rem" />
             
           </div>
         </div>
