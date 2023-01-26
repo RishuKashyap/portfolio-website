@@ -1,7 +1,7 @@
 
 form{
     
-    margin: 30px auto;
+    margin: 3rem auto;
     display: flex;
     flex-direction: column;
     height: 60%;
@@ -21,4 +21,10 @@ input{
 
 .form-submit-button:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    form{
+        width : 80vw;
+    }
 }

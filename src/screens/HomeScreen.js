@@ -9,29 +9,32 @@ function HomeScreen() {
         <Layout/>
         {/* INTRODUCTION */}
         <div className="IntroSection">
-          <div className='allHeader'>
-            <h1>Namaste &#x1f64f;, I'm Rishu!!!</h1>
-            <h2>I'm a Full Stack Developer</h2>
-            <img className="profile-img" src={require('../images/profilePic.jpg')} alt="" height="300rem" width="240rem" />
-            
-          </div>
+           <div className='introImage'>
+              <img className="profile-img" src={require('../images/profilePic.jpg')} alt="profile pic"  />
+           </div>
+            <div className='introText'>
+              <h1>Hello, I'm Rishu!!!</h1>
+              <h1>I'm a Full Stack Developer</h1>
+            </div>
         </div>
+        
+        
         {/* SKILLS */}
         <div className='Skills'>
           <h1>Skills</h1>
-          <h2>HTML</h2>
-          <h2>CSS</h2>
-          <h2>JavaScript</h2>
-          <h2>React Js</h2>
-          <h2>Node Js</h2>
-          <h2>Mongo DB</h2>
-          <h2>Firebase</h2>
+          <h3>HTML</h3>
+          <h3>CSS</h3>
+          <h3>JavaScript</h3>
+          <h3>React Js</h3>
+          <h3>Node Js</h3>
+          <h3>Mongo DB</h3>
+          <h3>Firebase</h3>
         </div>
         {/* INTERNSHIP */}
         <div className="InternshipSection">
           <div className='allHeader'>
             <h1>Internship</h1>
-            <p>Software Developer Trainee<br/>Aztech Technology and Engineers Pvt. Ltd.</p>
+            <h3>Software Developer Trainee<br/>Aztech Technology and Engineers Pvt. Ltd.</h3>
           </div>
           <div className="allContent">
             <ul>

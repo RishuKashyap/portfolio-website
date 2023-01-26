@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from './Layout'
 import './Layout.css'
 import "./FormScreen.css"
+import Footer from './Footer'
 
 
 function FormScreen() {
@@ -19,6 +20,7 @@ function FormScreen() {
         </form>
         </div>
         </div>
+        <Footer/>
     </div>
   )
 }

@@ -1,15 +1,37 @@
 /* INTRO SECTION */
 .IntroSection{
+    display: flex;
+    flex-direction: row;
     min-height: 100%;
-    width: 70vw;
+    width: fit-content;
     margin: auto;
     margin-top: 3rem;
-    padding-top: 0.1rem;
-    padding-bottom: 2rem;
-    background-color:black;
+    padding: 2rem 2rem 2rem 2rem;
+    /* padding-bottom: 2rem; */
+    /* background-color:; */
     border-radius: 2rem;
-    border: 1rem brown outset ;
+    border: 0.5rem palevioletred outset ;
     text-shadow: 0 0 3px black, 0 0 5px black;
+    
+}
+
+.profile-img{
+    height: 18rem;
+    width: 10rem;
+    border: 2px solid black;
+}
+
+.introImage{
+    
+    margin-right: 3rem;
+    height:min-content;
+    
+}
+
+.introText{
+    justify-content: center;
+    text-align: center;
+
 }
 
 .IntroSection h1{
@@ -111,8 +133,29 @@
 @media screen and (max-width: 480px){
     
     .IntroSection{
+        padding: 1rem 1rem 1rem 1rem;
+        flex-direction: row;
         height: fit-content;
         width: 70vw;
+        margin-left: 2.5rem;
+    }
+
+    .IntroSection h1{
+        font-size: larger;
+    }
+
+    .profile-img{
+        height: 18rem;
+        width: 10rem;
+    }
+
+    .introImage{
+        width: fit-content;
+        margin-right:0.4rem ;
+    }
+
+    .introText{
+        margin-top: 2rem;
     }
 
     .Skills{
