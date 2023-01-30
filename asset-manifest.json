@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.2684b92d.css",
-    "main.js": "/portfolio-website/static/js/main.b4804e86.js",
+    "main.css": "/portfolio-website/static/css/main.bc5b6844.css",
+    "main.js": "/portfolio-website/static/js/main.7953f821.js",
     "static/js/787.e8871c4f.chunk.js": "/portfolio-website/static/js/787.e8871c4f.chunk.js",
+    "static/media/netflix3.png": "/portfolio-website/static/media/netflix3.b3c560021912b2891a16.png",
     "static/media/netflix1.png": "/portfolio-website/static/media/netflix1.86aed0d238b534545e3d.png",
+    "static/media/netflix4.png": "/portfolio-website/static/media/netflix4.c3c2e3a6c04c3115bc5c.png",
     "static/media/netflix2.png": "/portfolio-website/static/media/netflix2.a7a42cf8e5a1190720cd.png",
     "static/media/layout.png": "/portfolio-website/static/media/layout.5315646d8adc1891a8e4.png",
-    "static/media/profilePic.jpg": "/portfolio-website/static/media/profilePic.4b1ade9a92476908c9f3.jpg",
+    "static/media/profile2.jpg": "/portfolio-website/static/media/profile2.104ce979c888e89d8cc4.jpg",
+    "static/media/hamburgerIcon1.png": "/portfolio-website/static/media/hamburgerIcon1.745580e91f9a46765063.png",
     "index.html": "/portfolio-website/index.html",
-    "main.2684b92d.css.map": "/portfolio-website/static/css/main.2684b92d.css.map",
-    "main.b4804e86.js.map": "/portfolio-website/static/js/main.b4804e86.js.map",
+    "main.bc5b6844.css.map": "/portfolio-website/static/css/main.bc5b6844.css.map",
+    "main.7953f821.js.map": "/portfolio-website/static/js/main.7953f821.js.map",
     "787.e8871c4f.chunk.js.map": "/portfolio-website/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2684b92d.css",
-    "static/js/main.b4804e86.js"
+    "static/css/main.bc5b6844.css",
+    "static/js/main.7953f821.js"
   ]
 }
