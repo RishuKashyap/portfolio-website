@@ -3,9 +3,14 @@ html {
     background-color: white;
 }
 body {
-    height:fit-content;
+    margin-left:0%;
+    margin-right:0%;
+    background-size: cover; 
     background-image: url(../images/layout.png);
-    background-position: center;
+    background-position:top; 
+    
+    /* background: linear-gradient(90deg,#dd3e54,black); */
+    
     
 }
 

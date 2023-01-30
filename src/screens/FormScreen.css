@@ -1,20 +1,27 @@
 
 form{
-    
+    padding: 2rem;
+    background-color: transparent;
     margin: 3rem auto;
     display: flex;
     flex-direction: column;
     height: 60%;
     width: 40%;
-    border: 2px dotted black;
+    backdrop-filter: blur(20px);
+    box-shadow: 0.25rem 0.25rem 0.5rem black,
+    -0.25rem -0.25rem 0.6rem black;
+
 }
 input{
-    padding: 20px 10px 20px 10px;
-    border: 2px dotted black;
+    margin: 1rem;
+    backdrop-filter: blur(20px);
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    border:none;
+    background: linear-gradient(90deg,wheat,white,wheat);
     
 }
 .form-submit-button{
-    background-color: white;
+
     font-size: large;
     color: black;
 }

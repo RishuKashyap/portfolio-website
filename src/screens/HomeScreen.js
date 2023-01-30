@@ -10,11 +10,11 @@ function HomeScreen() {
         {/* INTRODUCTION */}
         <div className="IntroSection">
            <div className='introImage'>
-              <img className="profile-img" src={require('../images/profilePic.jpg')} alt="profile pic"  />
+              <img className="profile-img" src={require('../images/profile2.jpg')} alt="profile pic"  />
            </div>
             <div className='introText'>
               <h1>Hello, I'm Rishu!!!</h1>
-              <h1>I'm a Full Stack Developer</h1>
+              <h2>I'm a Full Stack Developer</h2>
             </div>
         </div>
         
